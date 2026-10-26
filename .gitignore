@@ -1,0 +1,23 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Local Python environments
+**/venv/
+**/.venv/
+
+# Dart and Flutter generated files
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.packages
+**/build/
+**/coverage/
+**/pubspec_overrides.yaml
+
+# IDE and OS files
+**/.idea/
+**/*.iml
+**/.vscode/
+.DS_Store
